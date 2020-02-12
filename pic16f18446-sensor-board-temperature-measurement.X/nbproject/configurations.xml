@@ -55,13 +55,13 @@
       <itemPath>main.c</itemPath>
       <itemPath>plot.c</itemPath>
       <itemPath>temperature.c</itemPath>
-      <itemPath>MyConfig1.mc3</itemPath>
+      <itemPath>mcc_config.mc3</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="false">
       <itemPath>Makefile</itemPath>
-      <itemPath>MyConfig1.mc3</itemPath>
+      <itemPath>mcc_config.mc3</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
