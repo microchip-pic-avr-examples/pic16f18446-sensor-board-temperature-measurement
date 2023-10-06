@@ -43,7 +43,7 @@ The following configurations must be made for this project:
   - Reset Oscillator Selection bits: HFINTOSC (1MHz)
   - WDT Operating Mode bits: WDT Disabled, SWDTEN is ignored
 
-  <br><img src="images/config_bits.PNG.jpg" width="600">
+  <br><img src="images/config_bits.jpg" width="600">
 
 - MSSP1 (SPI):
   - Mode: Host
@@ -57,13 +57,13 @@ The following configurations must be made for this project:
   - Enable CLC: Yes
   - Logic cell mode bits: AND-OR
 
-  <br><img src="images/CLC1.PNG" width="600">
+  <br><img src="images/CLC1.png" width="600">
   
 - CLC2:
   - Enable CLC: Yes
   - Logic cell mode bits: AND-OR
 
-  <br><img src="images/CLC2.PNG" width="600">
+  <br><img src="images/CLC2.png" width="600">
 
 - FVR:
   - Enable FVR: Yes
