@@ -20,7 +20,7 @@ In this example we will be using the PIC16F18446 Sensor Board. The PIC reads the
 - [PIC16F1xxxx_DFP](https://packs.download.microchip.com/) v1.2.99
 
 ## Hardware Used
-- [PIC16F18446 Sensor Board Demonstration](https://www.microchip.com/promo/pic16f18446-sensor-board-demonstration)
+- [PIC16F18446 Sensor Board Quick Start Guide](http://ww1.microchip.com/downloads/en/DeviceDoc/30010172A.pdf)
   <br><img src="images/PIC16F18446_Sensor_board.PNG" width="800">
 
 ## Operation
@@ -50,13 +50,13 @@ The following configurations must be made for this project:
   - Enable CLC: Yes
   - Logic cell mode bits: AND-OR
 
-  <br><img src="images/clc1.PNG" width="600">
+  <br><img src="images/CLC1.PNG" width="600">
   
 - CLC2:
   - Enable CLC: Yes
   - Logic cell mode bits: AND-OR
 
-  <br><img src="images/clc2.PNG" width="600">
+  <br><img src="images/CLC2.PNG" width="600">
 
 - FVR:
   - Enable FVR: Yes
