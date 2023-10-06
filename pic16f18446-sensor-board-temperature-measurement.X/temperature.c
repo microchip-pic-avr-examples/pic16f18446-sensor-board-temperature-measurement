@@ -74,7 +74,7 @@ void drawTemperaturePlots(uint8_t x, uint8_t y, uint16_t color) {
     
     int32_t v;
     
-    v = 64 + (temp12bit - temp12bitOffset)*5;
+    v = 64 + (temp12bit - temp12bitOffset)/2;
     
     if(v<0) v = 0;
     if(v>255) v = 255;
@@ -83,7 +83,7 @@ void drawTemperaturePlots(uint8_t x, uint8_t y, uint16_t color) {
     drawPlot(&plot1, x, y, 65, color);
     
     
-    v = 64 + (temp10bit - temp10bitOffset)*5;
+    v = 64 + (temp10bit - temp10bitOffset)/2;
     
     if(v<0) v = 0;
     if(v>255) v = 255;

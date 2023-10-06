@@ -41,7 +41,7 @@
     SOFTWARE.
 */
 
-#include "mcc_generated_files/mcc.h"
+#include "mcc_generated_files/system/system.h"
 #include "graphics.h"
 #include "plot.h"
 #include "ili9163c.h"
@@ -61,21 +61,21 @@ extern const FONT font8x12;
 
 
 
-void onS2Action(void)
-{
-    if (S2_GetValue() == 0)
-    {
-        s2Pressed = 1;
-    }
-}
-
-void onS3Action(void)
-{
-    if (S3_GetValue() == 0)
-    {
-        s3Pressed = 1;
-    }
-}
+//void onS2Action(void)
+//{
+//    if (S2_GetValue() == 0)
+//    {
+//        s2Pressed = 1;
+//    }
+//}
+//
+//void onS3Action(void)
+//{
+//    if (S3_GetValue() == 0)
+//    {
+//        s3Pressed = 1;
+//    }
+//}
 
 
 
@@ -99,8 +99,8 @@ void main(void)
     // Disable the Peripheral Interrupts
     //INTERRUPT_PeripheralInterruptDisable();
     
-    IOCBF5_SetInterruptHandler(onS2Action);
-    IOCCF4_SetInterruptHandler(onS3Action);
+//    IOCBF5_SetInterruptHandler(onS2Action);
+//    IOCCF4_SetInterruptHandler(onS3Action);
 
     GFX_Initialize();
     GFX_SetFont(&font8x12);

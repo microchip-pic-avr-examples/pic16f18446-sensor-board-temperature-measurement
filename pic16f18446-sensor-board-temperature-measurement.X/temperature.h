@@ -31,7 +31,7 @@
 #ifndef TEMPERATURE_H
 #define	TEMPERATURE_H
 
-#include "mcc_generated_files/mcc.h"
+#include "mcc_generated_files/system/system.h"
 #include "graphics.h"
 #include "plot.h"
 
