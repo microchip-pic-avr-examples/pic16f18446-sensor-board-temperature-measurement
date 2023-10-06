@@ -38,6 +38,13 @@ The following configurations must be made for this project:
 
   <br><img src="images/clock_control.PNG" width="600">
 
+- Configuration bit:
+  - External Oscillator Selection bits: Oscillator not enabled
+  - Reset Oscillator Selection bits: HFINTOSC (1MHz)
+  - WDT Operating Mode bits: WDT Disabled, SWDTEN is ignored
+
+  <br><img src="images/config_bits.PNG.jpg" width="600">
+
 - MSSP1 (SPI):
   - Mode: Host
   - SPI Mode: SPI Mode 0
