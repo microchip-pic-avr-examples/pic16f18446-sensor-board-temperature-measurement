@@ -1,17 +1,17 @@
 <a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
 
-## PIC16F18446 Sensor Board Temperature Measurement
+## Using the PIC16F18446 Microcontroller
 
-The PIC16F184xx family has a new Analog to Digital Converter with Computation (ADCC) with a 12-bit resolution. This project shows the reading of an analog temperature sensor (MCP9701) using the ADCC.
+The PIC16F184xx family has a new Analog-to-Digital Converter with Computation (ADCC) with a 12-bit resolution. This project shows the reading of an analog temperature sensor (MCP9701) using the ADCC.
 
-In this example we will be using the PIC16F18446 Sensor Board. The PIC reads the temperature sensor, and displays the temperature on the LCD. The sensor has a temperature coefficient of 19.5 mV/°C. It is sensitive enough to detect the heat of the user's hand from a distance of 1 cm. Here is a picture of the temperature sensor:
+This example showcases the PIC16F18446 Sensor Board. The PIC reads the temperature sensor, and displays the temperature on the LCD. The sensor has a temperature coefficient of 19.5 mV/°C. It is sensitive enough to detect the heat of the user's hand from a distance of 1 cm. The temperature sensor is shown in the image below:
 
 <br><img src="images/Temperature_Sensor.jpg" width="600">
 
 ## Related Documentation
 - [PIC16F18446 Product Family Page](https://www.microchip.com/design-centers/8-bit/pic-mcus/device-selection/pic16f18446)
-- [PIC16F18446 datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/40001985B.pdf) for more information or specifications.
+- [PIC16F18446 Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/40001985B.pdf) for more information or specifications.
 
 ## Software Used
 
@@ -25,7 +25,7 @@ In this example we will be using the PIC16F18446 Sensor Board. The PIC reads the
 
 ## Operation
 
-To program the microcontroller with this MPLAB X project, follow the steps provided in the [How to Program the Microcontroller](#how-to-program-the-microcontroller) chapter.<br><br>
+To program the microcontroller with this MPLAB® X project, follow the steps provided in the [How to Program the Microcontroller](#how-to-program-the-microcontroller) chapter.<br><br>
 
 ## Setup
 
@@ -38,9 +38,9 @@ The following configurations must be made for this project:
 
   <br><img src="images/clock_control.PNG" width="600">
 
-- Configuration bit:
-  - External Oscillator Selection bits: Oscillator not enabled
-  - Reset Oscillator Selection bits: HFINTOSC (1MHz)
+- Configuration bits:
+  - External Oscillator Selection bits: Oscillator disabled
+  - Reset Oscillator Selection bits: HFINTOSC (1 MHz)
   - WDT Operating Mode bits: WDT Disabled, SWDTEN is ignored
 
   <br><img src="images/config_bits.jpg" width="600">
@@ -55,13 +55,13 @@ The following configurations must be made for this project:
   
 - CLC1:
   - Enable CLC: Yes
-  - Logic cell mode bits: AND-OR
+  - Logic Cell mode: AND-OR
 
   <br><img src="images/CLC1.png" width="600">
   
 - CLC2:
   - Enable CLC: Yes
-  - Logic cell mode bits: AND-OR
+  - Logic Cell mode: AND-OR
 
   <br><img src="images/CLC2.png" width="600">
 
@@ -74,7 +74,7 @@ The following configurations must be made for this project:
   
 - ADCC:
   - Enable ADC: Yes
-  - Operating Mode: Burst average mode
+  - Operating Mode: Burst Average mode
   - Result Alignment: Right
   - Positive Input Channel: ANC3
   - Positive Reference: FVR
@@ -108,7 +108,7 @@ The following configurations must be made for this project:
 
 ## Demo
 
-The current temperature is displayed (in Celsius) on the LCD. Also, two graphs display the variations of the 12-bit and 10-bit temperature values in real time.
+The current temperature is displayed, in °C, on the LCD. Also, two graphs display the variations of the 12-bit and 10-bit temperature values in real time.
 
 <br><img src="images/Temperature_GUI.jpg" width="600">
 

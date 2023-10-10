@@ -58,27 +58,6 @@ volatile uint8_t s3Pressed = 0;
 
 extern const FONT font8x12;
 
-
-
-
-//void onS2Action(void)
-//{
-//    if (S2_GetValue() == 0)
-//    {
-//        s2Pressed = 1;
-//    }
-//}
-//
-//void onS3Action(void)
-//{
-//    if (S3_GetValue() == 0)
-//    {
-//        s3Pressed = 1;
-//    }
-//}
-
-
-
 void main(void)
 {
     // initialize the device
