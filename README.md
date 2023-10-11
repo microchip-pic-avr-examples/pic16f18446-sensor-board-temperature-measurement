@@ -1,7 +1,7 @@
 <a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
 
-## Using the PIC16F18446 Microcontroller
+## Sensor Board Temperature Measurement Using the PIC16F18446 Microcontroller
 
 The PIC16F184xx family has a new Analog-to-Digital Converter with Computation (ADCC) with a 12-bit resolution. This project shows the reading of an analog temperature sensor (MCP9701) using the ADCC.
 
@@ -144,7 +144,7 @@ This chapter demonstrates how to use the MPLAB X IDE to program a PIC® device w
 
 <br>
 
-- [Back to Top](#pic16f18446-sensor-board-temperature-measurement)
+- [Back to Top](#sensor-board-temperature-measurement-using-the-pic16f18446-microcontroller)
 - [Back to Setup](#setup)
 - [Back to Demo](#demo)
 - [Back to Summary](#summary)

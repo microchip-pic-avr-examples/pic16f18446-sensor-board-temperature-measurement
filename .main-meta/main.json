@@ -5,7 +5,7 @@
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.pic16f18446-sensor-board-temperature-measurement",
         "version": "2.0.0",
-        "displayName": "PIC16F18446 Sensor Board Temperature Measurement",
+        "displayName": "Sensor Board Temperature Measurement Using the PIC16F18446 Microcontroller",
         "projectName": "pic16f18446-sensor-board-temperature-measurement",
         "shortDescription": " The PIC reads the temperature sensor, and displays the temperature on the LCD. The sensor has a temperature coefficient of 19.5 mV/°C. It is sensitive enough to detect the heat of the user's hand from a distance of 1 cm.",
         "ide": {
